@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MazeGame
 {
-    internal class IdentifiableObject
+    public class IdentifiableObject
     {
         List<string> _identifiers = new List<string>();
 
@@ -26,7 +26,7 @@ namespace MazeGame
 
         }
 
-        private bool AreYou(string id)
+        public bool AreYou(string id)
         {
             foreach (var ident in _identifiers)
             {
@@ -38,7 +38,7 @@ namespace MazeGame
             return false;
         }
 
-        private void AddIdentifier(string id)
+        public void AddIdentifier(string id)
         {
             string idLowerCase = id.ToLower();
             _identifiers.Add(idLowerCase);
