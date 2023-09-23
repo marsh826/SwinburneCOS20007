@@ -14,15 +14,43 @@ namespace MazeGame
         {
             foreach (var ident in idents)
             {
-                if(!AreYou(ident))
+                if (idents.Length !=0)
                 {
-                    AddIdentifier(ident);
+                    if (!AreYou(ident))
+                    {
+                        AddIdentifier(ident);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{ident} already exist in List");
+                    }
                 } 
                 else
                 {
-                    Console.WriteLine($"{ident} already exist in List");
+                    _identifiers.AddRange(idents);
                 }
             }
+
+            /*            for(int i = 0; i < idents.Length; i++)
+                        {
+                            if (idents[i] != null)
+                            {
+                                if (!AreYou(idents[i]))
+                                {
+                                    AddIdentifier(idents[i]);
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"{idents[i]} already exist in List");
+                                }
+                            }
+                            else
+                            {
+                                idents[i] = "";
+                                AddIdentifier(idents[i]);
+                                return;
+                            }
+                        }*/
 
         }
 
@@ -38,26 +66,26 @@ namespace MazeGame
             return false;
         }
 
-        public void AddIdentifier(string id)
-        {
-            string idLowerCase = id.ToLower();
-            _identifiers.Add(idLowerCase);
-            Console.WriteLine($"Successfully added {idLowerCase} into List");
-        }
-
         public string FirstId
         {
             get
             {
                 if (_identifiers.Count == 0)
                 {
-                    return "No Identifier available";
+                    return "";
                 }
                 else
                 {
                     return _identifiers.ElementAt(0);
                 }
             }    
+        }
+
+        public void AddIdentifier(string id)
+        {
+                string idLowerCase = id.ToLower();
+                _identifiers.Add(idLowerCase);
+                Console.WriteLine($"Successfully added {idLowerCase} into List");
         }
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeGame", "MazeGame.csproj", "{3FA3E3A4-D2C7-429A-820D-906AC7D80421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentifiableObject.nUnitTests", "..\IdentifiableObject.nUnitTests\IdentifiableObject.nUnitTests.csproj", "{156209D5-D358-43D6-887B-E2CEBF7089CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGame.nUnitTests", "..\MazeGame.nUnitTests\MazeGame.nUnitTests.csproj", "{B39D289E-AF8A-4402-80AE-330C6CD8817C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3FA3E3A4-D2C7-429A-820D-906AC7D80421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA3E3A4-D2C7-429A-820D-906AC7D80421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA3E3A4-D2C7-429A-820D-906AC7D80421}.Release|Any CPU.Build.0 = Release|Any CPU
-		{156209D5-D358-43D6-887B-E2CEBF7089CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{156209D5-D358-43D6-887B-E2CEBF7089CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{156209D5-D358-43D6-887B-E2CEBF7089CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{156209D5-D358-43D6-887B-E2CEBF7089CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39D289E-AF8A-4402-80AE-330C6CD8817C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39D289E-AF8A-4402-80AE-330C6CD8817C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39D289E-AF8A-4402-80AE-330C6CD8817C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39D289E-AF8A-4402-80AE-330C6CD8817C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
