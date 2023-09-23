@@ -30,28 +30,6 @@ namespace MazeGame
                     _identifiers.AddRange(idents);
                 }
             }
-
-            /*            for(int i = 0; i < idents.Length; i++)
-                        {
-                            if (idents[i] != null)
-                            {
-                                if (!AreYou(idents[i]))
-                                {
-                                    AddIdentifier(idents[i]);
-                                }
-                                else
-                                {
-                                    Console.WriteLine($"{idents[i]} already exist in List");
-                                }
-                            }
-                            else
-                            {
-                                idents[i] = "";
-                                AddIdentifier(idents[i]);
-                                return;
-                            }
-                        }*/
-
         }
 
         public bool AreYou(string id)

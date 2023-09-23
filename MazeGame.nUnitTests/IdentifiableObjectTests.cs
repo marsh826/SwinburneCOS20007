@@ -29,7 +29,7 @@ namespace MazeGame.nUnitTests
         public void TestNotEqual_AreYou()
         {
             string testID = "id5";
-            var sut = _idList2.AreYou(testID);
+            var sut = _idList.AreYou(testID);
             Assert.That(sut, Is.EqualTo(false));
         }
 
@@ -37,7 +37,7 @@ namespace MazeGame.nUnitTests
         public void TestCaseSensitive_AreYou()
         {
             string testID = "iD3";
-            var sut = _idList2.AreYou(testID);
+            var sut = _idList.AreYou(testID);
             Assert.That(sut, Is.EqualTo(false));
         }
 
@@ -55,6 +55,16 @@ namespace MazeGame.nUnitTests
             _idList2 = new IdentifiableObject(new string[0] { });
             var sut = _idList2.FirstId;
             Assert.That(sut, Is.EqualTo(""));
+        }
+
+
+        [Test]
+        public void Test_AddID()
+        {
+            string newID = "id6";
+            _idList.AddIdentifier(newID);
+            var sut = _idList.AreYou(newID);
+            Assert.That(sut, Is.EqualTo(true));
         }
     }
 }
