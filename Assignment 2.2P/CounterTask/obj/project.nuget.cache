@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xbTl1PdIjn+XGk8cH/IkGzYlgynXZ8f0MKruuR8e3fziGi2Y1fD9zkwzN1cg1fKf/IdKNHtPPSdCbJ//oOGM/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anlon\\source\\repos\\Swinburne\\CounterTask\\CounterTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anlon\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
