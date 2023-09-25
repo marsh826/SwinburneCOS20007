@@ -1,0 +1,14 @@
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\bin\Debug\net6.0\ClockTask.exe
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\bin\Debug\net6.0\ClockTask.deps.json
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\bin\Debug\net6.0\ClockTask.runtimeconfig.json
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\bin\Debug\net6.0\ClockTask.dll
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\bin\Debug\net6.0\ClockTask.pdb
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.AssemblyInfoInputs.cache
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.AssemblyInfo.cs
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.csproj.CoreCompileInputs.cache
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.dll
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\refint\ClockTask.dll
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.pdb
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.genruntimeconfig.cache
+D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ref\ClockTask.dll
