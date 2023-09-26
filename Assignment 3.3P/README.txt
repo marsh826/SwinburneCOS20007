@@ -1,0 +1,1 @@
+Must install MSYS2 MINGW32 and SplashKit Framework to run this project
