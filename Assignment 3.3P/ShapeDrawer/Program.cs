@@ -148,7 +148,10 @@ namespace ShapeDrawer
             {
                 foreach(Shape s in _shapes)
                 {
-                    s.Selected = (s.IsAt(pt)) ? true : false;
+                    if (s.IsAt(pt))
+                    {
+                    	s.Selected = true;
+                    }
                 }
             }
 

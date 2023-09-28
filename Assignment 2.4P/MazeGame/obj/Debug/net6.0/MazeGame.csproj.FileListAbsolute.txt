@@ -12,3 +12,18 @@ D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\refint\MazeGame.d
 D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.pdb
 D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
 D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll

@@ -12,3 +12,18 @@ D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\refint\ClockTask
 D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.pdb
 D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ClockTask.genruntimeconfig.cache
 D:\SwinburneCS20007\SwinburneCS20007\ClockTask\obj\Debug\net6.0\ref\ClockTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\bin\Debug\net6.0\ClockTask.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\bin\Debug\net6.0\ClockTask.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\bin\Debug\net6.0\ClockTask.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\bin\Debug\net6.0\ClockTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\bin\Debug\net6.0\ClockTask.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\refint\ClockTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ClockTask.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 3.1P\ClockTask\obj\Debug\net6.0\ref\ClockTask.dll
