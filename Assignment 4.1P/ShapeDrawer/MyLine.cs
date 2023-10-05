@@ -66,13 +66,18 @@ namespace ShapeDrawer
 
         public override bool IsAt(Point2D pt)
         {
-            if ((_startX < pt.X) && (pt.X < _endX) && (_startY < pt.Y) && (pt.Y < _endY))
+            Point2D start = new Point2D { X = _startX, Y = _startY };
+            Point2D end = new Point2D { X = _endX, Y = _endY };
+
+            Line line = new Line { StartPoint = start, EndPoint = end };
+
+            if (SplashKit.PointOnLine(pt, line, 1000))
             {
                 return true;
             }
 
             return false;
-            
+
         }
 
         public static MyLine operator +(MyLine start, MyLine end)
