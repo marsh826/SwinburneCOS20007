@@ -7,6 +7,7 @@
         private Item shovel { get; set; } = null!;
         private Item knife { get; set; } = null!;
         private Item gem { get; set; } = null!;
+        private Bag _bag1 { get; set; } = null!;
         private LookCommand look { get; set; } = null!;
         [SetUp]
         public void SetUp() 
@@ -64,15 +65,108 @@
             gem = new Item(new string[] { "gem" }, "a green gem", "A rare type of gem that can only be obtained through trade");
             _player.Inventory.Put(gem);
 
-            ///Look at gem in inventory
-            var sut = look.FetchContainer(_player, "gem");
+            string command = "look at gem in inventory";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
             Assert.Multiple(() =>
             {
                 Assert.IsNotNull(sut);
-                Assert.That(sut, Is.EqualTo(gem));
+                Assert.That(sut, Is.EqualTo(gem.FullDescription));
             });
             Console.WriteLine();
             Console.WriteLine(sut);
+        }
+
+        [Test]
+        public void Test_LookAtGemInBag()
+        {
+            _bag1 = new Bag(new string[] { "bag1" }, "brown bag", "a bag made and stiched with leather.");
+            gem = new Item(new string[] { "gem" }, "a green gem", "A rare type of gem that can only be obtained through trade");
+            _bag1.Inventory.Put(gem);
+            _player.Inventory.Put(_bag1);
+
+            string command = "look at gem in bag1";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
+            Assert.Multiple(() =>
+            {
+                Assert.IsNotNull(sut);
+                Assert.That(sut, Is.EqualTo(gem.FullDescription));
+            });
+            Console.WriteLine();
+            Console.WriteLine(sut);
+        }
+
+        [Test]
+        public void Test_LookAtGemInNoBag()
+        {
+            _bag1 = new Bag(new string[] { "bag1" }, "brown bag", "a bag made and stiched with leather.");
+            gem = new Item(new string[] { "gem" }, "a green gem", "A rare type of gem that can only be obtained through trade");
+            _bag1.Inventory.Put(gem);
+            _player.Inventory.Put(_bag1);
+
+            string command = "look at gem in bag2";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
+            Assert.Multiple(() =>
+            {
+                Assert.IsNotNull(sut);
+                Assert.That(sut, Is.EqualTo("I can't find the bag2"));
+            });
+            Console.WriteLine();
+            Console.WriteLine(sut);
+        }
+
+        [Test]
+        public void Test_LookAtNoGemInBag()
+        {
+            _bag1 = new Bag(new string[] { "bag1" }, "brown bag", "a bag made and stiched with leather.");
+            _player.Inventory.Put(_bag1);
+
+            string command = "look at gem in bag1";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
+            Assert.Multiple(() =>
+            {
+                Assert.IsNotNull(sut);
+                Assert.That(sut, Is.EqualTo("I can't find the gem in brown bag"));
+            });
+            Console.WriteLine();
+            Console.WriteLine(sut);
+        }
+
+        [Test]
+        public void Test_InvalidLook()
+        {
+            string command = "hi there";
+            string command2 = "go in store";
+            string command3 = "look in here";
+            string command4 = "look at this at here";
+
+            string[] array = command.Split(' ');
+            string[] array2 = command2.Split(' ');
+            string[] array3 = command3.Split(' ');
+            string[] array4 = command4.Split(' ');
+
+            var sut = look.Execute(_player, array);
+            var sut2 = look.Execute(_player, array2);
+            var sut3 = look.Execute(_player, array3);
+            var sut4 = look.Execute(_player, array4);
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(sut, Is.EqualTo("I don't know how to look like that"));
+                Assert.That(sut2, Is.EqualTo("Error in look input"));
+                Assert.That(sut3, Is.EqualTo("What do you want to look at?"));
+                Assert.That(sut4, Is.EqualTo("What do you want to looking in?"));
+            });
+
+            Console.WriteLine();
+            Console.WriteLine("Lists of possible errors with wrong input");
+            Console.WriteLine(sut);
+            Console.WriteLine(sut2);
+            Console.WriteLine(sut3);
+            Console.WriteLine(sut4);
         }
     }
 }

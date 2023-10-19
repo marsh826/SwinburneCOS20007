@@ -15,24 +15,49 @@ namespace MazeGame
         
         public override string Execute(Player p, string[] text)
         {
-/*            for(int i = 0; i < text.Length; i++)
-            {*/
+            IHaveInventory container;
+            string itemID;
             if (text.Length == 3 || text.Length == 5)
             {
                 if (text[0] == "look")
                 {
                     if (text[1] == "at")
                     {
-                        if (text.Length >= 3)
+                        if (text.Length == 3)
                         {
-                            Player container = p;
-                            string itemID = text[2];
-                            if(text.Length == 5)
+                            container = p;
+                            itemID = text[2];
+                           
+                            return LookAtIn(itemID, container);
+                        }
+                        else if (text.Length == 5 && text[3] == "in")
+                        {
+                            string containerID = text[4];
+                            container = FetchContainer(p, containerID);
+                            string itmReturn;
+                            if(container != null)
                             {
-                                string containerID = text[3];
-                                FetchContainer(container, containerID);
+                                itemID = text[2];
+                                itmReturn = LookAtIn(itemID, container);
+
+                                if(itmReturn == ("I can't find the " + itemID))
+                                {
+                                    return $"I can't find the {itemID} in {container.Name}";
+                                }
+                                else
+                                {
+                                    return itmReturn;
+                                }
                             }
-                            LookAtIn(itemID, container);
+                            else
+                            {
+                                return "I can't find the " + containerID;
+                            }
+
+                        }
+                        else
+                        {
+                            return "What do you want to looking in?";
                         }
                     }
                     else
@@ -45,19 +70,19 @@ namespace MazeGame
                     return "Error in look input";
                 }
             }
-            //}
-
-
-            return "I don't know how to look like that";
+            else
+            {
+                return "I don't know how to look like that";
+            }
         }
 
-        public IHaveInventory FetchContainer (Player p, string containerID)
+        private IHaveInventory FetchContainer (Player p, string containerID)
         {
-            IHaveInventory container;
+            //IHaveInventory container;
             var result = p.Locate(containerID);
-            container = result as IHaveInventory;
-            return container;
-            //return (IHaveInventory)result;
+/*            container = result as IHaveInventory;
+            return container;*/
+            return (IHaveInventory)result;
         }
 
         public string LookAtIn(string thingId, IHaveInventory container)
@@ -68,8 +93,10 @@ namespace MazeGame
             {
                 return result.FullDescription;
             }
-
-            return "I can't find the " + thingId;
+            else
+            {
+                return "I can't find the " + thingId;
+            }
         }
     }
 }
