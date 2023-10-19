@@ -23,6 +23,11 @@ namespace MazeGame
             get { return _name; }
         }
 
+        public string Description
+        {
+            get { return _description; }
+        }
+
         public string ShortDescription
         {
             get { return $"{Name} ({FirstId})"; }

@@ -10,14 +10,10 @@ namespace MazeGame
     public class Player : GameObject, IHaveInventory
     {
         private Inventory _inventory;
-        private string _name;
-        private string _description;    
 
         public Player(string name, string desc) : base(new string[] { "me", "inventory" }, name, desc )
         {
             _inventory = new Inventory();
-            _name = name;
-            _description = desc;
         }
 
         public GameObject Locate(string id)
@@ -49,7 +45,7 @@ namespace MazeGame
             get 
             { 
                 return 
-                    $"You are {_name} {_description}\n" +
+                    $"You are {Name} {Description}\n" +
                     $"You are carrying: \n{_inventory.ItemList}"; 
             }
         }
