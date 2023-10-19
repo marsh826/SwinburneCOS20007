@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace MazeGame
 {
-    public class Player : GameObject
+    public class Player : GameObject, IHaveInventory
     {
         private Inventory _inventory;
         private string _name;

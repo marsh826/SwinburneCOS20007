@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace MazeGame
 {
-    interface IHaveInventory
+    public interface IHaveInventory
     {
         GameObject Locate(string id);
-        public string Name
+        
+        string Name
         {
-            get { return Name; }
+            get;
         }
     }
 }
