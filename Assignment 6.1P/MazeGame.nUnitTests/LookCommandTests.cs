@@ -25,7 +25,10 @@
         [Test]
         public void Test_LookAtMe()
         {
-            var sut = look.LookAtIn("me", _player);
+
+            string command = "look at me";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
             Assert.Multiple(() =>
             {
                 Assert.IsNotNull(sut);
@@ -40,7 +43,9 @@
         {
             gem = new Item(new string[] { "gem" }, "a green gem", "A rare type of gem that can only be obtained through trade");
             _player.Inventory.Put(gem);
-            var sut = look.LookAtIn("gem", _player);
+            string command = "look at gem";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
             Assert.Multiple(() =>
             {
                 Assert.IsNotNull(sut);
@@ -53,7 +58,9 @@
         [Test]
         public void Test_LookAtUnk()
         {
-            var sut = look.LookAtIn("gem", _player);
+            string command = "look at gem";
+            string[] array = command.Split(' ');
+            var sut = look.Execute(_player, array);
             Assert.That(sut, Is.EqualTo("I can't find the gem"));
             Console.WriteLine();
             Console.WriteLine(sut);

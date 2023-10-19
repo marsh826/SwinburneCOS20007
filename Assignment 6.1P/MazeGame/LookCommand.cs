@@ -85,7 +85,7 @@ namespace MazeGame
             return (IHaveInventory)result;
         }
 
-        public string LookAtIn(string thingId, IHaveInventory container)
+        private string LookAtIn(string thingId, IHaveInventory container)
         {
             var result = container.Locate(thingId);
 
