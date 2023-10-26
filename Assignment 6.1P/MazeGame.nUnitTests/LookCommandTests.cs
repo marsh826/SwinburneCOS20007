@@ -146,7 +146,7 @@
         public void Test_InvalidLook()
         {
             string command = "hi there";
-            string command2 = "go in store";
+            string command2 = "look";
             string command3 = "look in here";
             string command4 = "look at this at here";
 
@@ -162,8 +162,8 @@
 
             Assert.Multiple(() =>
             {
-                Assert.That(sut, Is.EqualTo("I don't know how to look like that"));
-                Assert.That(sut2, Is.EqualTo("Error in look input"));
+                Assert.That(sut, Is.EqualTo("Error in look input"));
+                Assert.That(sut2, Is.EqualTo("I don't know how to look like that"));
                 Assert.That(sut3, Is.EqualTo("What do you want to look at?"));
                 Assert.That(sut4, Is.EqualTo("What do you want to looking in?"));
             });

@@ -17,9 +17,9 @@ namespace MazeGame
         {
             IHaveInventory container;
             string itemID;
-            if (text.Length == 3 || text.Length == 5)
+            if (text[0] == "look")
             {
-                if (text[0] == "look")
+                if (text.Length == 3 || text.Length == 5)
                 {
                     if (text[1] == "at")
                     {
@@ -66,12 +66,12 @@ namespace MazeGame
                 }
                 else
                 {
-                    return "Error in look input";
+                    return "I don't know how to look like that";
                 }
             }
             else
             {
-                return "I don't know how to look like that";
+                return "Error in look input";
             }
         }
 
