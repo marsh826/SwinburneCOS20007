@@ -1,10 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MazeGame;
 Player _player = new Player("Hoang An", "the comtemplator of infinity");
-Item sword = new Item(new string[] { "knife" }, "an obsidian knife", "A hunting knife cast from obsidian");
+Item knife = new Item(new string[] { "knife" }, "an obsidian knife", "A hunting knife cast from obsidian");
 Item axe = new Item(new string[] { "axe" }, "a stone axe", "An axe made of cobblestone");
 
-_player.Inventory.Put(sword);
+_player.Inventory.Put(knife);
 _player.Inventory.Put(axe);
 
 Bag _bag = new Bag(new string[] { "b1" }, "leather bag", "a bag made and stiched with leather.");
