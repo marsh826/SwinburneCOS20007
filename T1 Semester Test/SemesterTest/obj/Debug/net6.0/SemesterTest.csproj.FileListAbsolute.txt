@@ -1,0 +1,14 @@
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.exe
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.deps.json
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.dll
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.pdb
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.dll
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\refint\SemesterTest.dll
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.pdb
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\ref\SemesterTest.dll
