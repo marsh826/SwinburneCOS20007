@@ -27,5 +27,10 @@ namespace BankATM
         {
             get { return _bankName; }
         }
+
+        protected List<Account> Accounts 
+        { 
+            get { return _listAccount; } 
+        }
     }
 }

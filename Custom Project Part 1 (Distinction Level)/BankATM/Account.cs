@@ -38,14 +38,19 @@ namespace BankATM
             get { return _id; }
         }
 
-        public Bank Bank 
+        protected Bank Bank 
         { 
             get { return _bank; } 
         }
 
-        public Customer Customer 
+        protected Customer Customer 
         { 
             get { return _customer; } 
+        }
+
+        public int PIN 
+        {
+            get { return _pin; }
         }
 
         public virtual string AccountDetails
