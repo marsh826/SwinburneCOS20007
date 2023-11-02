@@ -8,6 +8,6 @@ namespace BankATM
 {
     internal abstract class TransactionType
     {
-        public abstract string PrintTransaction(double amount);
+        public abstract string PrintTransaction();
     }
 }

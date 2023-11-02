@@ -9,16 +9,29 @@ namespace BankATM
     internal class Withdrawal : TransactionType
     {
         private double _balance;
+        private string _name;
 
-        public double Balance
+        public Withdrawal(double balance, string type = "Withdrawal")
         {
-            get { return _balance; }
-            set { _balance = value; }
+            _balance = balance;
+            _name = type;
         }
 
-        public override string PrintTransaction(double amount)
+        protected double Balance
         {
-            Balance = amount;
+            get { return _balance; }
+        }
+
+        protected string Name
+        {
+            get { return _name; }
+        }
+
+        public override string PrintTransaction()
+        {
+            string result = Balance.ToString();
+            return $"Amount: {result}\n" +
+                $"Transaction Type:{Name}";
         }
     }
 }

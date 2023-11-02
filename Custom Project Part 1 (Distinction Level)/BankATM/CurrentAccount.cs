@@ -17,6 +17,18 @@ namespace BankATM
             _balance = balance;
             _transactions = transactions;
         }
+
+        public override string DisplayTransaction()
+        {
+            List<string> list = new List<string>();   
+            foreach (var transaction in _transactions)
+            {
+                list.Add(transaction.TransactionSummary());
+            }
+            string summary = string.Join("\n", list);
+            return summary;
+        }
+
         public override void Deposit(double amount)
         {
 

@@ -19,9 +19,10 @@ namespace BankATM
             _description = description;
         }   
 
-        public void TransactionSummary()
+        public string TransactionSummary()
         {
-
+            string joinedSummary = "";
+            return _type.PrintTransaction();
         }
 
         public TransactionType TransactionType 

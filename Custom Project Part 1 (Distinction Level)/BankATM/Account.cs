@@ -22,10 +22,7 @@ namespace BankATM
             _pin = pin;
         }
 
-        public string DisplayTransaction()
-        {
-            return "";
-        }
+        public abstract string DisplayTransaction();
 
         public abstract void Deposit(double amount);
 
@@ -38,12 +35,12 @@ namespace BankATM
             get { return _id; }
         }
 
-        protected Bank Bank 
+        public Bank Bank 
         { 
             get { return _bank; } 
         }
 
-        protected Customer Customer 
+        public Customer Customer 
         { 
             get { return _customer; } 
         }
