@@ -3,41 +3,56 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace BankATM
 {
     internal class Transaction
     {
-        private Date _transactionDate;
-        private TransactionType _type;
+        private Date _date;
+        private string _type;
         private string _description;
+        private double _amount;
 
-        public Transaction(Date transactionDate, TransactionType type, string description)
+        public Transaction(Date transactionDate, string type, string description, double amount)
         {
-            _transactionDate = transactionDate;
+            _date = transactionDate;
             _type = type;
             _description = description;
+            _amount = amount;
         }   
 
+        /// <summary>
+        /// Create a collective list of details for one transaction
+        /// </summary>
+        /// <returns></returns>
         public string TransactionSummary()
         {
-            string joinedSummary = "";
-            return _type.PrintTransaction();
+            return $"Transaction Type: {Type}\n" +
+                $"Date: {Date.date}\n" +
+                $"Time: {Date.time}\n" +
+                $"Amount: {Amount}\n" +
+                $"Description: {Description}\n";
         }
 
-        public TransactionType TransactionType 
+        public string Type 
         { 
             get { return _type; } 
         }
 
-        public Date TransactionDate 
+        public Date Date 
         { 
-            get { return _transactionDate; } 
+            get { return _date; } 
         }
 
-        public string TransactionDescription
+        public string Description
         {
             get { return _description; }
+        }
+
+        public double Amount
+        {
+            get { return _amount; }
         }
     }
 }

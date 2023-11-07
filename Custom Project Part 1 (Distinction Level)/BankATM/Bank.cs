@@ -18,9 +18,27 @@ namespace BankATM
             _listAccount = new List<Account>();    
         }
 
+        /// <summary>
+        /// Associate newly created account with Bank object
+        /// </summary>
+        /// <param name="account"></param>
         public void AddAccount(Account account)
         {
             _listAccount.Add(account);
+        }
+
+        /// <summary>
+        /// Verify that account does exist with account id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public bool AccountExist(string id)
+        {
+            foreach(Account acc in _listAccount)
+            {
+                if(id == acc.AccountID) return true;
+            }
+            return false;
         }
 
         public string BankName
@@ -28,7 +46,7 @@ namespace BankATM
             get { return _bankName; }
         }
 
-        protected List<Account> Accounts 
+        public List<Account> Accounts 
         { 
             get { return _listAccount; } 
         }

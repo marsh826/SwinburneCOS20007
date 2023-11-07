@@ -1,0 +1,14 @@
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\bin\Debug\net6.0\BankATM.exe
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\bin\Debug\net6.0\BankATM.deps.json
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\bin\Debug\net6.0\BankATM.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\bin\Debug\net6.0\BankATM.dll
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\bin\Debug\net6.0\BankATM.pdb
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.dll
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\refint\BankATM.dll
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.pdb
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\BankATM.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Custom Project Part 1 (Distinction Level)\BankATM\obj\Debug\net6.0\ref\BankATM.dll

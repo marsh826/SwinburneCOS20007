@@ -14,6 +14,7 @@ namespace BankATM
 
         public Date(DateTime dateTime)
         {
+            //Divide DateTime object into two seperate data: date and time 
             _date = DateOnly.FromDateTime(dateTime);
             _time = TimeOnly.FromDateTime(dateTime);
         }

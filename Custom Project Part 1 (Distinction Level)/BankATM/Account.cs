@@ -11,33 +11,21 @@ namespace BankATM
     {
         private string _id;
         private Customer _customer;
-        private Bank _bank;
+        private string _typeAccount;
+
         private int _pin;
 
-        public Account(string id, Customer customer, Bank bank, int pin)
+        public Account(string id, Customer customer, int pin)
         {
             _id = id;
             _customer = customer;
-            _bank = bank;
             _pin = pin;
+            _typeAccount = "";
         }
-
-        public abstract string DisplayTransaction();
-
-        public abstract void Deposit(double amount);
-
-        public abstract void Withdrawl(double amount);
-
-        public abstract void Transfer(double amount);
 
         public string AccountID
         {
             get { return _id; }
-        }
-
-        public Bank Bank 
-        { 
-            get { return _bank; } 
         }
 
         public Customer Customer 
@@ -55,5 +43,19 @@ namespace BankATM
             get { return "Details of an Account"; }
         }
 
+        public virtual string AccountType
+        {
+            get { return "Default"; }
+        }
+
+        public abstract string PrintTransaction();
+
+        public abstract bool BalanceCheck(double amount);
+
+        public abstract void Deposit(double amount, string desc);
+
+        public abstract void Withdraw(double amount, string desc);
+
+        public abstract void Transfer(double amount, string desc, string id);
     }
 }
