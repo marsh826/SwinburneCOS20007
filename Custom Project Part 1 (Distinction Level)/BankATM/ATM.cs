@@ -174,6 +174,8 @@ namespace BankATM
                     Console.WriteLine("Update Address:");
                     string newAddress = Console.ReadLine();
                     CurrentUser.UpdateInfo(newName, newPhone, newEmail, newAddress);
+                    Console.Clear();
+                    Console.WriteLine("Personal Info Updated\n");
                     break;
             }
         }
