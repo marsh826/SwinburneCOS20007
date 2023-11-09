@@ -29,7 +29,7 @@ namespace SemesterTest
         /// Responsible for displaying output in Program.cs
         /// </summary>
         /// <param name="numbers"></param>
-        public void PrintAverage(List<int> numbers)
+        private void PrintAverage(List<int> numbers)
         {
             float average = Average(numbers);
             Console.WriteLine($"The average value of the number list is: {average:.0#}");

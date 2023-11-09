@@ -44,7 +44,7 @@ namespace SemesterTest
         /// Responsible for displaying the output in Program.cs
         /// </summary>
         /// <param name="numbers"></param>
-        public void PrintMinMax(List<int> numbers)
+        private void PrintMinMax(List<int> numbers)
         {
             int max = Maximum(numbers);
             int min = Minimum(numbers);
