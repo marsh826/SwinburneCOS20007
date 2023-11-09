@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using BankATM;
+using System.Globalization;
 
 ////////////////////////New Bank//////////////////////////////////////////
 Bank bank1 = new Bank("TechcomBank");
@@ -55,11 +56,14 @@ ATM atm = new ATM(bank1, location);
 bool active = true;
 bool loggedIn = false;
 Console.WriteLine("Welcome to the ATM\n");
-double num = Double.Parse(Console.ReadLine());
+double num = double.Parse(Console.ReadLine());
 
-//Console.WriteLine(String.Format("{0:n}", num));
-//Console.WriteLine(num.ToString("N2"));
-///Console.WriteLine(num.ToString("#,##0.00"));
+
+/*NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
+Console.WriteLine(num.ToString("C", nfi));*/
+
+//Console.WriteLine(num.ToString("C", CultureInfo.CurrentCulture));
+//Console.WriteLine("$" + num.ToString());
 string input;
 
 
