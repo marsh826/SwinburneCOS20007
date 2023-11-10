@@ -14,3 +14,19 @@ C:\Users\anlon\source\repos\Swinburne\CounterTask\obj\Debug\net5.0\refint\Counte
 C:\Users\anlon\source\repos\Swinburne\CounterTask\obj\Debug\net5.0\CounterTask.pdb
 C:\Users\anlon\source\repos\Swinburne\CounterTask\obj\Debug\net5.0\CounterTask.genruntimeconfig.cache
 C:\Users\anlon\source\repos\Swinburne\CounterTask\obj\Debug\net5.0\ref\CounterTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\bin\Debug\net5.0\CounterTask.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\bin\Debug\net5.0\CounterTask.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\bin\Debug\net5.0\CounterTask.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\bin\Debug\net5.0\CounterTask.runtimeconfig.dev.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\bin\Debug\net5.0\CounterTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\bin\Debug\net5.0\CounterTask.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\refint\CounterTask.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\CounterTask.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.2P\obj\Debug\net5.0\ref\CounterTask.dll

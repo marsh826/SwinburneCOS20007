@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eZfTVfY8+kXvgz/1mE5Qthut+4KPQMRITevcFalXha4rAHgfkPjWUT9/Jyvf8/As01SxUAASnp35VAXIaKtkqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Assignment 1.2P\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anlon\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -12,3 +12,18 @@ D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\refint
 D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.pdb
 D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.genruntimeconfig.cache
 D:\Swinburne\SwinburneCS20007\Semester Test\SemesterTest\obj\Debug\net6.0\ref\SemesterTest.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\bin\Debug\net6.0\SemesterTest.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\refint\SemesterTest.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\SemesterTest.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\T1 Semester Test\SemesterTest\obj\Debug\net6.0\ref\SemesterTest.dll

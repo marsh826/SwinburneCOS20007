@@ -9,7 +9,7 @@ namespace BankATM
 {
     internal class Bank
     {
-        private string _bankName;
+        private string _bankName; 
         private List<Account> _listAccount;
 
         public Bank(string name)

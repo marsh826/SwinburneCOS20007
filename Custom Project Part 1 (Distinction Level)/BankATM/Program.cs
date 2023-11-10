@@ -55,8 +55,8 @@ ATM atm = new ATM(bank1, location);
 
 bool active = true;
 bool loggedIn = false;
-Console.WriteLine("Welcome to the ATM\n");
-double num = double.Parse(Console.ReadLine());
+/*Console.WriteLine("Welcome to the ATM\n");
+double num = double.Parse(Console.ReadLine());*/
 
 
 /*NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;

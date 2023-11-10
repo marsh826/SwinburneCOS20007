@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\msys64\\home\\anlon\\ShapeDrawer\\ShapeDrawer.csproj": {}
+    "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Assignment 3.3P\\ShapeDrawer\\ShapeDrawer.csproj": {}
   },
   "projects": {
-    "C:\\msys64\\home\\anlon\\ShapeDrawer\\ShapeDrawer.csproj": {
+    "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Assignment 3.3P\\ShapeDrawer\\ShapeDrawer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\msys64\\home\\anlon\\ShapeDrawer\\ShapeDrawer.csproj",
+        "projectUniqueName": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Assignment 3.3P\\ShapeDrawer\\ShapeDrawer.csproj",
         "projectName": "ShapeDrawer",
-        "projectPath": "C:\\msys64\\home\\anlon\\ShapeDrawer\\ShapeDrawer.csproj",
+        "projectPath": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Assignment 3.3P\\ShapeDrawer\\ShapeDrawer.csproj",
         "packagesPath": "C:\\Users\\anlon\\.nuget\\packages\\",
-        "outputPath": "C:\\msys64\\home\\anlon\\ShapeDrawer\\obj\\",
+        "outputPath": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Assignment 3.3P\\ShapeDrawer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anlon\\AppData\\Roaming\\NuGet\\NuGet.Config",
