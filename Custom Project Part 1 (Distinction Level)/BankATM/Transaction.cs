@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,12 @@ namespace BankATM
             _type = type;
             _description = description;
             _amount = amount;
-        }   
+        }
+
+        /// <summary>
+        /// Money formatter (US currency)
+        /// </summary>
+        NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
 
         /// <summary>
         /// Create a collective list of details for one transaction
@@ -31,7 +37,7 @@ namespace BankATM
             return $"Transaction Type: {Type}\n" +
                 $"Date: {Date.date}\n" +
                 $"Time: {Date.time}\n" +
-                $"Amount: {Amount}\n" +
+                $"Amount: {Amount.ToString("C", nfi)}\n" +
                 $"Description: {Description}\n";
         }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,9 +18,9 @@ namespace BankATM
             : base(id, customer, pin)
         {
             _transactions = new List<Transaction>();
-            //Balance starts at 0.00 when a new account is initialised
+            // Balance starts at 0.00 when a new account is initialised
             _balance = 0.00;
-            //SavingAccount has AccountType registered as Saving
+            // SavingAccount has AccountType registered as Saving
             _typeAccount = "Saving"; 
         }
 
@@ -40,7 +41,15 @@ namespace BankATM
             string[] array = list.ToArray();
             string result = string.Join("\n", array);
             list.Clear();
-            return result;
+
+            if (result == "")
+            {
+                return "No transaction was ever recorded in this account.\n";
+            }
+            else
+            {
+                return result;
+            }
         }
 
         /// <summary>
@@ -61,6 +70,11 @@ namespace BankATM
         }
 
         /// <summary>
+        /// Money formatter (US currency)
+        /// </summary>
+        NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
+
+        /// <summary>
         /// Add an amount of money into the account's current balance
         /// </summary>
         /// <param name="amount"></param>
@@ -69,8 +83,6 @@ namespace BankATM
         {
             _balance += amount;
             Console.Clear();
-            Console.WriteLine($"You have successfully deposited ${amount} into account {AccountID}");
-            Console.WriteLine($"New Account Balance: ${Balance}\n");
             Date currentDate = new Date(DateTime.Now);
             Transaction newDeposit = new Transaction(currentDate, "Deposit", desc, amount);
             Transactions.Add(newDeposit);
@@ -85,8 +97,8 @@ namespace BankATM
         {
             _balance -= amount;
             Console.Clear();
-            Console.WriteLine($"you have successfully withdrawed ${amount} from  account {AccountID}");
-            Console.WriteLine($"New Account Balance: ${Balance}\n");
+            Console.WriteLine($"you have successfully withdrawed {amount} from  account {AccountID}");
+            Console.WriteLine($"New Account Balance: {Balance.ToString("C", nfi)}\n");
             Date currentDate = new Date(DateTime.Now);
             Transaction newWithdraw = new Transaction(currentDate, "Withdraw", desc, amount);
             Transactions.Add(newWithdraw);
@@ -102,7 +114,7 @@ namespace BankATM
         {
             _balance -= amount;
             Console.Clear();
-            Console.WriteLine($"${amount} transferred successfully to account {id}\n");
+            Console.WriteLine($"{amount.ToString("C", nfi)} transferred successfully to account {id}\n");
             Date newDate = new Date(DateTime.Now);
             Transaction newTransfer = new Transaction(newDate, "Transfer", desc, amount);
             Transactions.Add(newTransfer);
@@ -130,7 +142,7 @@ namespace BankATM
                 return $"AccountID: {AccountID}\n" +
                     $"Account Holder: {Customer.Name}\n" +
                     $"Account Type: {AccountType}\n" +
-                    $"Balance: {Balance}";
+                    $"Balance: {Balance.ToString("C", nfi)}";
             }
         }
     }
