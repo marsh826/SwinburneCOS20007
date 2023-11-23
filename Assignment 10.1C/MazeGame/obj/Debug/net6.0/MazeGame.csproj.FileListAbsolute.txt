@@ -1,0 +1,146 @@
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\bin\Debug\net6.0\MazeGame.exe
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\bin\Debug\net6.0\MazeGame.dll
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.dll
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+D:\SwinburneCS20007\SwinburneCS20007\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 2.4P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Assignment 4.2P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Assignment 5.2P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 6.1P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\bin\Debug\net6.0\MazeGame.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\bin\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.1P\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\bin\Debug\net6.0\MazeGame.exe
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\bin\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.csproj.AssemblyReference.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+C:\Users\anlon\OneDrive\Documents\GitHub\SwinburneCS20007\Assignment 7.2C\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\bin\Debug\net6.0\MazeGame.exe
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\bin\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 9.2C\MazeGame\obj\Debug\net6.0\MazeGame.sourcelink.json
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\bin\Debug\net6.0\MazeGame.exe
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\bin\Debug\net6.0\MazeGame.deps.json
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\bin\Debug\net6.0\MazeGame.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\bin\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\bin\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.sourcelink.json
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\refint\MazeGame.dll
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.pdb
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\MazeGame.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Assignment 10.1C\MazeGame\obj\Debug\net6.0\ref\MazeGame.dll
