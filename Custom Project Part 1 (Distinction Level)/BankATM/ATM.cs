@@ -37,6 +37,33 @@ namespace BankATM
             _accountType = AccountType.None;
         }
 
+        public AccountType AccountType
+        {
+            get { return _accountType; }
+            set { _accountType = value; }
+        }
+
+        public Customer CurrentUser
+        {
+            get { return _currentUser; }
+            set { _currentUser = value; }
+        }
+
+        public Account CurrentAccount
+        {
+            get { return _currentAccount; }
+            set { _currentAccount = value; }
+        }
+
+        public string DetailsATM
+        {
+            get
+            {
+                return $"Location: {_location}\n" +
+                    $"Owned by Bank: {_bank.BankName}\n";
+            }
+        }
+
         public bool ValidatePin(int pin)
         {
             // Look through each account in the bank for matching PIN
@@ -157,7 +184,7 @@ namespace BankATM
                     Console.Write("Who would you like to transfer to?: ");
                     string id = Console.ReadLine();
 
-                    if (_bank.AccountExist(id))
+                    if (_bank.AccountExist(account.AccountID))
                     {
                         Console.WriteLine("Important Note: Please use ',' for decimals [Example: 250,50]");
                         Console.Write("Enter amount: ");
@@ -173,6 +200,10 @@ namespace BankATM
                                     Console.WriteLine($"{amount.ToString("C", nfi)} has been successfully transferred to {id}\n");
                                     break;
                                 }
+                                else
+                                {
+                                    Console.WriteLine($"Cannot Transfer to Account ID: {id}. Account doesn't exist.");
+                                }
                             }
                         }
                         else
@@ -182,7 +213,7 @@ namespace BankATM
                     }
                     else
                     {
-                        Console.WriteLine($"\nCannot find Account ID: {id} in the system.\n");
+                        Console.WriteLine($"\nCannot find Account ID: {account.AccountID} in the system.\n");
                     }
                     break;
 
@@ -198,179 +229,164 @@ namespace BankATM
                     break;
 
                 case "Check Personal Info":
-                    Console.WriteLine(CurrentUser.CheckInfo()+ "\n");
+                    if (_bank.AccountExist(account.AccountID))
+                    {
+                        Console.WriteLine(CurrentUser.CheckInfo());
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error: Account not found\n");
+                    }
                     break;
 
                 case "Update Personal Info":
-                    Console.WriteLine("Note: Type 'Cancel' to abort ongoing operation.");
+                    if (_bank.AccountExist(account.AccountID))
+                    { 
+                        Console.WriteLine("Note: Type 'Cancel' to abort ongoing operation.");
 
-                    // After each input field, there is an if statement to check if 
-                    // the user has decided to cancel this operation by typing 'Cancel',
-                    // which are checked with case insensitive
+                        // After each input field, there is an if statement to check if 
+                        // the user has decided to cancel this operation by typing 'Cancel',
+                        // which are checked with case insensitive
 
-                    Console.Write("Update First Name:");
-                    string newFirstName = Console.ReadLine();
-                    if (String.Equals(newFirstName, "Cancel", StringComparison.OrdinalIgnoreCase))
-                    {
-                        Console.WriteLine();
-                        break;
-                    }
-                    else 
-                    {
-                        char[] chars = newFirstName.ToCharArray();
-                        for (int i = 0; i < chars.Length; i++)
+                        Console.Write("Update First Name:");
+                        string newFirstName = Console.ReadLine();
+                        if (String.Equals(newFirstName, "Cancel", StringComparison.OrdinalIgnoreCase))
                         {
-                            if (chars[i] >= 'a' && chars[i] <= 'z' || chars[i] >= 'A' && chars[i] <= 'Z')
-                            {
-                                i++;
-                            }
-                            else
-                            {
-                                Console.WriteLine("Incorrect Name format");
-                                break;
-                            }
-                        }
-                    }
-
-                    Console.Write("Update Last Name:");
-                    string newLastName = Console.ReadLine();
-                    if (String.Equals(newLastName, "Cancel", StringComparison.OrdinalIgnoreCase))
-                    {
-                        Console.WriteLine();
-                        break;
-                    }
-                    else
-                    {
-                        char[] chars = newLastName.ToCharArray();
-                        for (int i = 0; i < chars.Length; i++)
-                        {
-                            if (chars[i] >= 'a' && chars[i] <= 'z' || chars[i] >= 'A' && chars[i] <= 'Z')
-                            {
-                                i++;
-                            }
-                            else
-                            {
-                                Console.WriteLine("Incorrect Name format");
-                                break;
-                            }
-                        }
-                    }
-
-                    Console.Write("Update Phone:");
-                    string newPhone = Console.ReadLine();
-                    if (String.Equals(newPhone, "Cancel", StringComparison.OrdinalIgnoreCase))
-                    {
-                        Console.WriteLine();
-                        break;
-                    }
-                    else
-                    {
-                        for (int i = 0; i < newPhone.ToCharArray().Length; i++)
-                        {
-                            if (newPhone[i] <= '9' || newPhone[i] >= '0' && newPhone.ToCharArray().Length == 11 && newPhone[0] == '0')
-                            {
-                                Console.WriteLine($"Phone: {newPhone}");
-                                break;
-                            }
-                            else
-                            {
-                                Console.WriteLine("Incorrect Phone format");
-                                break;
-                            }
-                        }
-                    }
-
-                    Console.Write("Update Email:");
-                    string newEmail = Console.ReadLine();
-                    if (String.Equals(newEmail, "Cancel", StringComparison.OrdinalIgnoreCase))
-                    {
-                        Console.WriteLine();
-                        break;
-                    }
-                    else
-                    {
-                        string regex = @"^[^@\s]+@[^@\s]+\.(com|net|org|gov)$";
-
-                        if (Regex.IsMatch(newEmail, regex))
-                        {
-                            Console.WriteLine($"Email: {newEmail}");
+                            Console.WriteLine();
+                            break;
                         }
                         else
                         {
-                            Console.WriteLine("Incorrect Email format");
-                            break;
-                        }
-                    }
-
-                    Console.Write("Update Address:");
-                    string newAddress = Console.ReadLine();
-                    if (String.Equals(newAddress, "Cancel", StringComparison.OrdinalIgnoreCase))
-                    {
-                        Console.WriteLine();
-                        break;
-                    }
-                    else
-                    {
-
-                        for (int i = 0; i < newAddress.ToCharArray().Length; i++)
-                        {
-                            int countNum = 0;
-                            if (newAddress[i] <= '9' && newAddress[i] >= '0')
+                            char[] chars = newFirstName.ToCharArray();
+                            for (int i = 0; i < chars.Length; i++)
                             {
-                                countNum++;
-                                i++;
-                                
-                                if(countNum >= 10)
+                                if (chars[i] >= 'a' && chars[i] <= 'z' || chars[i] >= 'A' && chars[i] <= 'Z')
                                 {
-                                    Console.WriteLine("Incorrect Address format");
+                                    i++;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Incorrect Name format");
                                     break;
                                 }
                             }
                         }
-                    }
 
-                    string newName = $"{newFirstName} {newLastName}";
+                        Console.Write("Update Last Name:");
+                        string newLastName = Console.ReadLine();
+                        if (String.Equals(newLastName, "Cancel", StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine();
+                            break;
+                        }
+                        else
+                        {
+                            char[] chars = newLastName.ToCharArray();
+                            for (int i = 0; i < chars.Length; i++)
+                            {
+                                if (chars[i] >= 'a' && chars[i] <= 'z' || chars[i] >= 'A' && chars[i] <= 'Z')
+                                {
+                                    i++;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Incorrect Name format");
+                                    break;
+                                }
+                            }
+                        }
 
-                    if (newName != null && newPhone != null && newEmail != null && newAddress != null)
-                    {
-                        CurrentUser.UpdateInfo(newName, newPhone, newEmail, newAddress);
-                        Console.Clear();
-                        Console.WriteLine("Personal Info Updated\n");
+                        Console.Write("Update Phone:");
+                        string newPhone = Console.ReadLine();
+                        if (String.Equals(newPhone, "Cancel", StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine();
+                            break;
+                        }
+                        else
+                        {
+                            for (int i = 0; i < newPhone.ToCharArray().Length; i++)
+                            {
+                                if (newPhone[i] <= '9' || newPhone[i] >= '0' && newPhone.ToCharArray().Length == 11 && newPhone[0] == '0')
+                                {
+                                    Console.WriteLine($"Phone: {newPhone}");
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Incorrect Phone format");
+                                    break;
+                                }
+                            }
+                        }
+
+                        Console.Write("Update Email:");
+                        string newEmail = Console.ReadLine();
+                        if (String.Equals(newEmail, "Cancel", StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine();
+                            break;
+                        }
+                        else
+                        {
+                            string regex = @"^[^@\s]+@[^@\s]+\.(com|net|org|gov)$";
+
+                            if (Regex.IsMatch(newEmail, regex))
+                            {
+                                Console.WriteLine($"Email: {newEmail}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Incorrect Email format");
+                                break;
+                            }
+                        }
+
+                        Console.Write("Update Address:");
+                        string newAddress = Console.ReadLine();
+                        if (String.Equals(newAddress, "Cancel", StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine();
+                            break;
+                        }
+                        else
+                        {
+                            for (int i = 0; i < newAddress.ToCharArray().Length; i++)
+                            {
+                                int countNum = 0;
+                                if (newAddress[i] <= '9' && newAddress[i] >= '0')
+                                {
+                                    countNum++;
+                                    i++;
+
+                                    if (countNum >= 10)
+                                    {
+                                        Console.WriteLine("Incorrect Address format");
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+
+                        string newName = $"{newFirstName} {newLastName}";
+
+                        if (newName != null && newPhone != null && newEmail != null && newAddress != null)
+                        {
+                            CurrentUser.UpdateInfo(newName, newPhone, newEmail, newAddress);
+                            Console.Clear();
+                            Console.WriteLine("Personal Info Updated\n");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Personal Info Not Updated\n");
+                        }
                     }
                     else
                     {
-                        Console.WriteLine("Personal Info Not Updated\n");
+                        Console.WriteLine("Error: Account not found\n");
                     }
-
                     break;
             }
-        }
-
-        public string DetailsATM
-        {
-            get 
-            { 
-                return $"Location: {_location}\n" +
-                    $"Owned by Bank: {_bank.BankName}\n"; 
-            }
-        }
-
-        public Account CurrentAccount
-        {
-            get { return _currentAccount; }
-            set { _currentAccount = value; }
-        }
-
-        public Customer CurrentUser
-        {
-            get { return _currentUser; }
-            set { _currentUser = value; }
-        }
-
-        public AccountType AccountType 
-        { 
-            get { return _accountType; } 
-            set { _accountType = value; } 
         }
     }
 }

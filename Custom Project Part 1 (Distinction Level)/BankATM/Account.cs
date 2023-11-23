@@ -7,7 +7,7 @@ using System.Transactions;
 
 namespace BankATM
 {
-    internal abstract class Account
+    internal abstract class Account : IBalance
     {
         private string _id;
         private Customer _customer;
@@ -45,7 +45,7 @@ namespace BankATM
 
         public virtual string AccountType
         {
-            get { return "Default"; }
+            get { return _typeAccount; }
         }
 
         public abstract string PrintTransaction();

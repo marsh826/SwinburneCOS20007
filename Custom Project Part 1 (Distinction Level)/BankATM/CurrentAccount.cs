@@ -25,6 +25,32 @@ namespace BankATM
             _typeAccount = "Spending";
         }
 
+        protected List<Transaction> Transactions
+        {
+            get { return _transactions; }
+        }
+
+        protected double Balance
+        {
+            get { return _balance; }
+        }
+        public override string AccountDetails
+        {
+            get
+            {
+                return $"Account Details:\n" +
+                    $"AccountID: {AccountID}\n" +
+                    $"Account Holder: {Customer.Name}\n" +
+                    $"Account Type: {AccountType}\n" +
+                    $"Balance: {Balance.ToString("C", nfi)}\n";
+            }
+        }
+
+        public override string AccountType
+        {
+            get { return _typeAccount; }
+        }
+
         /// <summary>
         /// Return all transactions made from this account
         /// </summary>
@@ -119,33 +145,6 @@ namespace BankATM
             Date newDate = new Date(DateTime.Now);
             Transaction newTransfer = new Transaction(newDate, "Transfer", desc, amount);
             Transactions.Add(newTransfer);
-        }
-
-        public override string AccountType
-        {
-            get { return _typeAccount; }
-        }
-
-        protected List<Transaction> Transactions
-        {
-            get { return _transactions; }
-        }
-
-        protected double Balance
-        {
-            get { return _balance; }
-        }
-
-        public override string AccountDetails
-        {
-            get
-            {
-                return $"Account Details:\n" +
-                    $"AccountID: {AccountID}\n" +
-                    $"Account Holder: {Customer.Name}\n" +
-                    $"Account Type: {AccountType}\n" +
-                    $"Balance: {Balance.ToString("C", nfi)}\n";
-            }
         }
     }
 }

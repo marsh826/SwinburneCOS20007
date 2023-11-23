@@ -18,6 +18,16 @@ namespace BankATM
             _listAccount = new List<Account>();    
         }
 
+        public List<Account> Accounts
+        {
+            get { return _listAccount; }
+        }
+
+        public string BankName
+        {
+            get { return _bankName; }
+        }
+
         /// <summary>
         /// Associate newly created account with Bank object
         /// </summary>
@@ -39,16 +49,6 @@ namespace BankATM
                 if(id == acc.AccountID) return true;
             }
             return false;
-        }
-
-        public string BankName
-        {
-            get { return _bankName; }
-        }
-
-        public List<Account> Accounts 
-        { 
-            get { return _listAccount; } 
         }
     }
 }

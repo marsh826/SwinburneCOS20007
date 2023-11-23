@@ -23,6 +23,26 @@ namespace BankATM
             _amount = amount;
         }
 
+        public Date Date
+        {
+            get { return _date; }
+        }
+
+        public double Amount
+        {
+            get { return _amount; }
+        }
+
+        public string Description
+        {
+            get { return _description; }
+        }
+
+        public string Type
+        {
+            get { return _type; }
+        }
+
         /// <summary>
         /// Money formatter (US currency)
         /// </summary>
@@ -39,26 +59,6 @@ namespace BankATM
                 $"Time: {Date.time}\n" +
                 $"Amount: {Amount.ToString("C", nfi)}\n" +
                 $"Description: {Description}\n";
-        }
-
-        public string Type 
-        { 
-            get { return _type; } 
-        }
-
-        public Date Date 
-        { 
-            get { return _date; } 
-        }
-
-        public string Description
-        {
-            get { return _description; }
-        }
-
-        public double Amount
-        {
-            get { return _amount; }
         }
     }
 }
