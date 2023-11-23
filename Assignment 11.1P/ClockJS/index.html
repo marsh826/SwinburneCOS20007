@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClockJS</title>
+    <style>
+        .container{
+            display:inline-block; 
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div id = "hour" class="container"></div>
+    <div class ="space container">:</div>
+    <div id = "minute" class="container"></div>
+    <div class ="space container">:</div>
+    <div id = "second"  class="container"></div>   
+
+    <button id = "button1" onclick="addtick()">Tick</button>
+    <button id = "button2" onclick="resetClock()">Reset</button>
+    <button id = "button3" onclick="startClock()">Start</button>
+    <button id = "button4" onclick="stopClock()">Stop</button>
+    
+</body>
+<script src="./App.js"></script>
+</html>

@@ -55,6 +55,7 @@ namespace MazeGame
 
         private Paths ScanPaths(IHaveInventory l, string pathID)
         {
+            Console.WriteLine("pathID=" + pathID);
             var scanned = l.Locate(pathID);
             return (Paths)scanned;
         }

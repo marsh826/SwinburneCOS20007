@@ -21,44 +21,6 @@ namespace MazeGame
         {
             List<GameObject> items = new List<GameObject>();
 
-            if(_inventory.HasItem(id))
-            {
-                var itm = _inventory.Fetch(id);
-                items.Add(itm);
-            }
-            else if (!_inventory.HasItem(id))
-            {
-                foreach(Paths path in _paths)
-                {
-                    if(id == path.FirstId || String.Equals(id, path.Name, StringComparison.OrdinalIgnoreCase))
-                    {
-                        var itm = path;
-                        items.Add(itm);
-                    }
-                }
-            }               
-            else
-            {
-                Item nullObj = null;
-                items.Add(nullObj);
-            }
-
-            if(items.Count > 0)
-            {
-                var result = items.ElementAt(0);
-                items.Clear();
-                return result;
-            }
-            else
-            {
-                return null;
-            }
-        }
-
-      /*  public GameObject Locate(string id)
-        {
-            List<GameObject> items = new List<GameObject>();
-
             if (_inventory.HasItem(id))
             {
                 var itm = _inventory.Fetch(id);
@@ -86,7 +48,7 @@ namespace MazeGame
             {
                 return null;
             }
-        }*/
+        }
 
         public override string FullDescription
         {
