@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj": {}
+    "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj": {
+    "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj",
+        "projectUniqueName": "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj",
         "projectName": "BankATM",
-        "projectPath": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj",
-        "packagesPath": "C:\\Users\\anlon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anlon\\OneDrive\\Documents\\GitHub\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\obj\\",
+        "projectPath": "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj",
+        "packagesPath": "C:\\Users\\WINDOWS\\.nuget\\packages\\",
+        "outputPath": "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\anlon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WINDOWS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
