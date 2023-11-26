@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj",
+      "projectUniqueName": "D:\\Swinburne\\SwinburneCS20007\\Custom Program  (6.4D)\\BankATM\\BankATM.csproj",
       "projectName": "BankATM",
-      "projectPath": "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\BankATM.csproj",
+      "projectPath": "D:\\Swinburne\\SwinburneCS20007\\Custom Program  (6.4D)\\BankATM\\BankATM.csproj",
       "packagesPath": "C:\\Users\\WINDOWS\\.nuget\\packages\\",
-      "outputPath": "D:\\Swinburne\\SwinburneCS20007\\Custom Project Part 1 (Distinction Level)\\BankATM\\obj\\",
+      "outputPath": "D:\\Swinburne\\SwinburneCS20007\\Custom Program  (6.4D)\\BankATM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
