@@ -1,0 +1,15 @@
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\bin\Debug\net8.0\9.4D Research Test.exe
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\bin\Debug\net8.0\9.4D Research Test.deps.json
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\bin\Debug\net8.0\9.4D Research Test.runtimeconfig.json
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\bin\Debug\net8.0\9.4D Research Test.dll
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\bin\Debug\net8.0\9.4D Research Test.pdb
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.AssemblyInfoInputs.cache
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.AssemblyInfo.cs
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.sourcelink.json
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.dll
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\refint\9.4D Research Test.dll
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.pdb
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\9.4D Research Test.genruntimeconfig.cache
+D:\Swinburne\SwinburneCS20007\Research Project Test Program 9.4HD\9.4D Research Test\obj\Debug\net8.0\ref\9.4D Research Test.dll
